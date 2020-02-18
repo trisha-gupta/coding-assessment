@@ -1,0 +1,41 @@
+img{
+   width: 120px; 
+   margin-bottom: 15px; 
+   text-align: center;
+ 
+
+   /*Your code here*/
+
+}
+
+div{
+   padding: 30px; 
+   margin:5px; 
+   display: grid;
+  grid-template-columns: 30px 30px 30px;
+  grid-template-rows: 5px 5px 5px;
+    grid-row-gap: 15px;
+  
+}
+
+
+header{
+  background-attachment: fixed;  
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  color: yellow;
+  background-color:#ffff00;
+  height: 400px;                
+  background-image: url("../images/back-ground.jpg");
+grid-column:1/-1;
+grid-row:2/ span 1;
+  
+}
+
+body{
+  background-size: cover ;
+  background-position: center;
+  background-image: url(../images/logo.JPEG);  
+  background-repeat: no-repeat;
+  background-color: #DDDDDD;
